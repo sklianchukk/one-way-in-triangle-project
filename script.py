@@ -69,7 +69,7 @@ class ProjektObliczenia:
         valid_count = 0
 
         # Pętla po liczbie krawędzi (od min_roads do N)
-        for r in range(min_roads, N - 1):
+        for r in range(min_roads, N + 1):
             # Generuje konkretne układy dróg o rozmiarze r
             for current_edges in itertools.combinations(all_possible_edges, r):
                 # Konwersja na set dla szybszego wyszukiwania
