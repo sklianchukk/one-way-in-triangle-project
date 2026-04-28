@@ -1,0 +1,6 @@
+Liczba miast: 7
+Min drog: 9
+Max drog: 21
+Liczba sposobow: 133479
+Przestrzen poszukiwan: 2^21
+Czas: 5.8921 s
